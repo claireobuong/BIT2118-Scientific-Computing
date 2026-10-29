@@ -1,0 +1,10 @@
+NETWORK LATENCY MONITORING REPORT
+Number of readings: 100,000
+Average latency: 127.46 ms
+Minimum latency: 5.00 ms
+Maximum latency: 249.99 ms
+Assumed latency limit: 150.00 ms
+Readings above the limit: 40640
+Average squared latency: 0.021224 squared seconds
+NumPy vectorized execution time: 0.000759 seconds
+Warning: Some network latency readings exceed the assumed limit.

@@ -1,0 +1,7 @@
+TASK 03: NUMPY VECTORIZATION
+Number of latency readings: 100,000
+First five latency readings (ms): [194.6192319  112.52521774 215.35649038 175.85516712  28.07345023]
+First five squared values (squared seconds): [0.03787665 0.01266192 0.04637842 0.03092504 0.00078812]
+Python loop execution time: 0.041714 seconds
+NumPy vectorized execution time: 0.001015 seconds
+Speed improvement: 41.11 times faster
