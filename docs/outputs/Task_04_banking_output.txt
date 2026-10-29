@@ -1,0 +1,8 @@
+BANKING TRANSACTION REPORT
+Number of transactions: 5
+Expected total: KSh 1.50
+Floating-point total: KSh 1.50000000000000000
+Decimal arithmetic total: KSh 1.50
+Floating-point total equals 1.50: True
+Decimal total equals 1.50: True
+Difference between totals: KSh 0.00

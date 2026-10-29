@@ -1,0 +1,12 @@
+TASK 04: FLOATING-POINT ARITHMETIC
+0.1 + 0.2 = 0.30000000000000004
+Expected value: 0.3
+Exact comparison: False
+Tolerance-based comparison: True
+
+NUMERICAL ERROR ANALYSIS
+True value of square root of 2: 1.4142135623730951
+Approximate value: 1.414
+Absolute error: 0.00021356237309522186
+Relative error: 0.00015101140222192286
+Relative error percentage: 0.015101140222192286 %

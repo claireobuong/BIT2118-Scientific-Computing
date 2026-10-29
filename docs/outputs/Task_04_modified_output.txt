@@ -1,0 +1,12 @@
+TASK 04: MODIFIED FLOATING-POINT INPUT
+0.1 + 0.3 = 0.4
+Expected value: 0.4
+Exact comparison: True
+Tolerance-based comparison: True
+
+MODIFIED NUMERICAL ERROR ANALYSIS
+True value of square root of 2: 1.4142135623730951
+Approximate value: 1.4142
+Absolute error: 1.3562373095243885e-05
+Relative error: 9.590045984628936e-06
+Relative error percentage: 0.0009590045984628936 %
