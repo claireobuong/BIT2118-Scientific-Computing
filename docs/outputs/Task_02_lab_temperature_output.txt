@@ -1,0 +1,8 @@
+COMPUTER LABORATORY TEMPERATURE REPORT
+Average temperature: 28.00 C
+Minimum temperature: 22.50 C
+Maximum temperature: 33.00 C
+Temperature limit: 30.00 C
+Number of readings above limit: 4
+Warning: The laboratory may require better cooling.
+Readings above limit: [31.  32.5 33.  31.5]
