@@ -1,78 +1,51 @@
 # Task 04: Floating-Point Arithmetic and Numerical Errors
 
-## 1. Introduction
+## 1. Inputs and Mathematical Operations
 
-This task demonstrates how computers handle decimal numbers using floating-point arithmetic and how small numerical errors can occur during calculations. It also shows how the `numpy.isclose()` function and Python's `Decimal` class can help when comparing numerical values and working with money.
+**Input:** The original program adds `0.1` and `0.2` and compares the result with `0.3`. It also calculates the square root of 2 and compares its true value with the approximation `1.414`.
 
-## 2. Original Program
+**Operations:** The program performs addition and checks the result using exact equality and `np.isclose()`. It also calculates the absolute error, relative error, and relative error percentage.
 
-The original program demonstrates the difference between exact floating-point comparison and tolerance-based comparison. It also calculates the absolute and relative errors when approximating the square root of 2.
+Absolute error is the difference between the true value and the approximate value, expressed as a positive number. Relative error is calculated by dividing the absolute error by the absolute value of the true value.
 
-### Inputs
+## 2. Parameter Change and Results
 
-- First calculation: 0.1 + 0.2.
-- Expected result: 0.3.
-- True value: square root of 2.
-- Approximate value: 1.414.
+**Parameter changed:** In a separate copy of the original program, the addition was changed from `0.1 + 0.2` to `0.1 + 0.3`. The approximation of the square root of 2 was also changed from `1.414` to `1.4142`.
 
-### Mathematical operations
+**Original result:** The addition produced `0.30000000000000004` instead of exactly `0.3`. The exact comparison returned `False`, while `np.isclose()` returned `True`. The absolute error was approximately `0.00021356`, and the relative error percentage was approximately `0.0151%`.
 
-The program calculates the sum of two floating-point numbers and compares it with the expected result. It uses `numpy.isclose()` to check whether the values are sufficiently close.
+**Result after the change:** The addition produced `0.4`, and both comparisons returned `True`. The absolute error for the square-root approximation decreased to approximately `0.00001356`, while the relative error percentage decreased to approximately `0.000959%`.
 
-Absolute error is calculated as:
+**Explanation:** Changing the square-root approximation to `1.4142` made it closer to the true value, so both errors became smaller. The modified addition also matched the expected value in this example. However, this does not mean that floating-point calculations always give exact results. Small differences can still occur depending on the numbers being used.
 
-Absolute error = |True value − Approximate value|
+## 3. Explanation of the Output
 
-Relative error is calculated as:
+The program displays the addition result, the expected value, and the results of the two comparison methods. It also shows the true and approximate values of the square root of 2 and the errors between them.
 
-Relative error = Absolute error / |True value|
+The results show that some decimal numbers cannot be represented exactly using the binary format computers use to store floating-point numbers. This explains why `0.1 + 0.2` can produce a result that is slightly different from `0.3`. Using `np.isclose()` helps check whether two values are close enough to be considered equal for a particular calculation.
 
-The relative error percentage is obtained by multiplying the relative error by 100.
+## 4. Related Real-World Case: Banking Transaction Calculations
 
-### Results and interpretation
+**Assumptions**
 
-The calculation of 0.1 + 0.2 produced 0.30000000000000004 instead of exactly 0.3. Therefore, the exact comparison returned `False`, while the tolerance-based comparison returned `True`.
+The modified program represents a simple banking calculation involving five transactions. The expected total is KSh 1.50. It compares the result obtained using floating-point arithmetic with the result obtained using Python's `Decimal` class. The example uses fixed transaction amounts and does not represent a complete banking system.
 
-The absolute error when approximating the square root of 2 with 1.414 was approximately 0.00021356. The relative error was approximately 0.00015101, equivalent to 0.0151%.
+**Input Data**
 
-These results show that floating-point numbers may be stored as approximations because computers use finite binary precision.
+The program uses five transaction amounts: KSh 0.10, KSh 0.20, KSh 0.30, KSh 0.40, and KSh 0.50. It adds the amounts using both floating-point and decimal arithmetic. It then compares the totals with KSh 1.50 and calculates the difference between the two results.
 
-## 3. Modified-Input Experiment
+**Output**
 
-The inputs were changed from 0.1 + 0.2 to 0.1 + 0.3, and the approximation of the square root of 2 was changed from 1.414 to 1.4142.
+- Number of transactions: 5
+- Expected total: KSh 1.50
+- Floating-point total: KSh 1.50000000000000000
+- Decimal arithmetic total: KSh 1.50
+- Floating-point total equals 1.50: True
+- Decimal total equals 1.50: True
+- Difference between totals: KSh 0.00
 
-### Results and interpretation
+**Interpretation**
 
-The calculation 0.1 + 0.3 produced 0.4, and both the exact and tolerance-based comparisons returned `True`.
+Both methods gave a total of KSh 1.50, with no difference between the results in this example. This shows that floating-point arithmetic can give the expected answer in some calculations, even though small errors may occur in others.
 
-The absolute error decreased to approximately 0.00001356, while the relative error decreased to approximately 0.00000959, equivalent to 0.000959%.
-
-The decrease in both errors shows that using a more precise approximation of the square root of 2 produces a result closer to its true value. However, the successful exact comparison for 0.1 + 0.3 does not mean that all floating-point calculations are exact.
-
-## 4. Modified Program: Banking Transaction Calculations
-
-### Real-world problem
-
-Banking systems calculate transaction totals and account balances. Small numerical inaccuracies can cause problems when many calculations are performed. This program compares ordinary floating-point arithmetic with decimal arithmetic for a set of monetary transactions.
-
-### Assumptions and inputs
-
-The program uses five transactions: KSh 0.10, KSh 0.20, KSh 0.30, KSh 0.40, and KSh 0.50. All transactions are assumed to be valid, and the expected total is KSh 1.50.
-
-The program uses Python's `Decimal` class with string inputs to represent the monetary amounts precisely.
-
-### Mathematical operations
-
-The program adds the five transaction amounts using ordinary floating-point arithmetic and decimal arithmetic. It then compares each total with the expected amount and calculates the absolute difference between the two totals.
-
-### Results and interpretation
-
-Both methods produced a total of KSh 1.50 in this particular example. Both comparisons returned `True`, and the difference between the totals was KSh 0.00.
-
-The result shows that floating-point arithmetic can produce the expected answer in some cases. However, the earlier 0.1 + 0.2 calculation demonstrated that certain decimal values cannot be represented exactly in binary floating-point format.
-
-Using `Decimal` for monetary calculations helps avoid these representation errors when decimal amounts are constructed correctly. A production banking system would also need appropriate rounding rules, transaction validation, and other financial controls.
-
-## 5. Conclusion
-
-This task demonstrated floating-point representation, absolute error, relative error, and the use of tolerance-based comparisons. The modified-input experiment showed how a more precise approximation reduces numerical error. The banking example demonstrated why decimal arithmetic is useful for monetary calculations. Overall, choosing an appropriate numerical representation helps improve the reliability of calculations in scientific computing and real-world applications.
+The `Decimal` class is useful for handling money because it allows decimal amounts to be represented accurately when created from strings such as `"0.10"` and `"0.20"`. In banking, this can help avoid rounding problems when handling many transactions. The example shows why choosing the right numerical method matters when working with money.
