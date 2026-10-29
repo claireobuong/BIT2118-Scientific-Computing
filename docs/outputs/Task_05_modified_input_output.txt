@@ -1,0 +1,27 @@
+TASK 05: MATRIX OPERATIONS WITH MODIFIED INPUTS
+
+Modified Matrix A:
+[[2 3]
+ [4 5]]
+
+Modified Matrix B:
+[[1 2]
+ [3 4]]
+
+Matrix Addition (A + B):
+[[3 5]
+ [7 9]]
+
+Matrix Multiplication (A @ B):
+[[11 16]
+ [19 28]]
+
+Determinant of Matrix A:
+-2.0
+
+Inverse of Matrix A:
+[[-2.5  1.5]
+ [ 2.  -1. ]]
+
+Matrix-Vector Multiplication (A @ x):
+[13 23]

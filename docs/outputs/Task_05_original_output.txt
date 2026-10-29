@@ -1,0 +1,27 @@
+TASK 05: MATRIX ALGEBRA AND MATRIX OPERATIONS
+
+Matrix A:
+[[1 2]
+ [3 4]]
+
+Matrix B:
+[[5 6]
+ [7 8]]
+
+Matrix Addition (A + B):
+[[ 6  8]
+ [10 12]]
+
+Matrix Multiplication (A @ B):
+[[19 22]
+ [43 50]]
+
+Determinant of Matrix A:
+-2.0000000000000004
+
+Inverse of Matrix A:
+[[-2.   1. ]
+ [ 1.5 -0.5]]
+
+Matrix-Vector Multiplication (A @ x):
+[17 39]
