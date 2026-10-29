@@ -1,0 +1,6 @@
+TASK 06: LINEAR SYSTEM WITH MODIFIED INPUTS
+Type A servers: 4
+Type B servers: 4
+Verification A @ solution: [24. 80.]
+Residual: [0. 0.]
+Residual norm: 0.0

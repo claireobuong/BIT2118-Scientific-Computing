@@ -1,0 +1,6 @@
+TASK 06: DC CIRCUIT ANALYSIS
+Loop 1 current I1: 1.6154 A
+Loop 2 current I2: 1.0385 A
+Current through shared 4-ohm resistor: 0.5769 A
+Verification R @ I: [12.  6.]
+Residual norm: 1.7763568394002505e-15
