@@ -1,0 +1,11 @@
+Modified measurement set 1
+Solution: [6.43902439 5.75609756 4.58536585]
+Residual norm: 8.881784197001252e-16
+
+Modified measurement set 2
+Solution: [6.14634146 6.58536585 6.19512195]
+Residual norm: 0.0
+
+Modified measurement set 3
+Solution: [7. 6. 7.]
+Residual norm: 0.0

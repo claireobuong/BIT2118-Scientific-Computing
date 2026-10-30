@@ -1,0 +1,19 @@
+Task_07_modified.py
+
+Heat distribution scenario 1
+Room 1 temperature rise: 6.439 °C
+Room 2 temperature rise: 5.7561 °C
+Room 3 temperature rise: 4.5854 °C
+Residual norm: 8.881784197001252e-16
+
+Heat distribution scenario 2
+Room 1 temperature rise: 6.1463 °C
+Room 2 temperature rise: 6.5854 °C
+Room 3 temperature rise: 6.1951 °C
+Residual norm: 0.0
+
+Heat distribution scenario 3
+Room 1 temperature rise: 7.0 °C
+Room 2 temperature rise: 6.0 °C
+Room 3 temperature rise: 7.0 °C
+Residual norm: 0.0
