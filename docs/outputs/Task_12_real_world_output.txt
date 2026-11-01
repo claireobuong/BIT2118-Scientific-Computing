@@ -1,0 +1,11 @@
+Initial guess: [3.0, 3.0]
+Boundary crossing (km): [3.75   3.3072]
+Residuals: [0. 0.]
+Converged: True
+
+Initial guess: [3.0, -3.0]
+Boundary crossing (km): [ 3.75   -3.3072]
+Residuals: [0. 0.]
+Converged: True
+
+Exact x: 3.75  Exact |y|: 3.3072

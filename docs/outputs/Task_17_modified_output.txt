@@ -1,0 +1,3 @@
+Euler temperature after 30 min: 25.27 C
+Exact temperature after 30 min: 26.78 C
+Final absolute error: 1.5098 C

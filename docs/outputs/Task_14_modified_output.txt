@@ -1,0 +1,3 @@
+Fitted model: y = 0.003476x^2 + -0.5405x + 108.57
+RMSE: 11.47 ms
+Predicted response at 400 users: 448.57 ms

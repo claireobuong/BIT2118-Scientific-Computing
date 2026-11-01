@@ -1,0 +1,5 @@
+Fitted model: y = 106.89 * exp(0.1162 x)
+Monthly growth rate: 12.32%
+RMSE: 1.03 GB   R^2: 0.9996
+Forecast month 10: 341.6 GB
+Forecast month 12: 430.9 GB

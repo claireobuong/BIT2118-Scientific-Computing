@@ -1,0 +1,3 @@
+h=2.0   Euler P(12)=  792.63  exact=  864.78  error=72.146
+h=1.0   Euler P(12)=  837.86  exact=  864.78  error=26.918
+h=0.25  Euler P(12)=  859.21  exact=  864.78  error=5.572

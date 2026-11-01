@@ -1,0 +1,5 @@
+Mean project duration: 40.33 days
+Standard deviation: 3.68 days
+95th percentile duration: 46.72 days
+Probability of missing the 40-day deadline: 51.2910%
+Late cases: 51291 out of 100000

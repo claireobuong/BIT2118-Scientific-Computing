@@ -1,19 +1,6 @@
-Task_07_modified.py
-
-Heat distribution scenario 1
-Room 1 temperature rise: 6.439 °C
-Room 2 temperature rise: 5.7561 °C
-Room 3 temperature rise: 4.5854 °C
-Residual norm: 8.881784197001252e-16
-
-Heat distribution scenario 2
-Room 1 temperature rise: 6.1463 °C
-Room 2 temperature rise: 6.5854 °C
-Room 3 temperature rise: 6.1951 °C
-Residual norm: 0.0
-
-Heat distribution scenario 3
-Room 1 temperature rise: 7.0 °C
-Room 2 temperature rise: 6.0 °C
-Room 3 temperature rise: 7.0 °C
-Residual norm: 0.0
+Room temperatures at hour 0: [ 9.48781107 11.3591155  10.39135241  7.32707584]
+Room temperatures at hour 23: [8.44673968 8.48982678 7.57333823 9.7119651 ]
+Hottest room-hour: 12.776
+Max residual over all hours: 1.4210854715202004e-14
+lu_solve x20000: 0.701 s
+np.linalg.solve x20000: 0.272 s

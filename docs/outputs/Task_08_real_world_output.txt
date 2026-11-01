@@ -1,0 +1,5 @@
+Jacobi iterations: 1243
+Gauss-Seidel iterations: 627
+Max error Jacobi vs direct: 4.4057234212857566e-05
+Max error Gauss-Seidel vs direct: 4.356515130155003e-05
+Average temperature at the middle of rod: 40.0 C

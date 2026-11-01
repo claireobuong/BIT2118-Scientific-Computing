@@ -1,0 +1,5 @@
+Bisection break-even quantity: 51.799293 units
+Bisection iterations: 41
+Fixed-point break-even quantity: 51.799293 units
+Fixed-point iterations: 8
+Profit at break-even: 1.67e-09

@@ -1,0 +1,7 @@
+Dominant eigenvalue: 3.0
+Eigenvector-based importance:
+A: 0.2500
+B: 0.2500
+C: 0.2500
+D: 0.2500
+Verification error: 0.0

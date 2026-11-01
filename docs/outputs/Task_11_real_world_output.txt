@@ -1,0 +1,6 @@
+Monthly rate (Newton): 2.247028%
+Monthly rate (Secant): 2.247028%
+Equivalent annual rate: 30.5594%
+Total repaid: 57600  Interest paid: 7600
+NPV at solution: -0.000000
+Newton iterations: 4  Secant iterations: 6

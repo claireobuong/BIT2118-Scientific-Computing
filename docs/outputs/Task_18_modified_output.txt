@@ -1,0 +1,3 @@
+Solver success: True
+Capacitor voltage at 5 s: 4.5896 V
+Maximum error against exact solution: 6.740e-10 V

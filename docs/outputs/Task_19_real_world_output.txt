@@ -1,0 +1,8 @@
+Optimization success: True
+Fertilizer 1: 36.000 kg
+Fertilizer 2: 8.000 kg
+Nitrogen supplied:   8.000 kg (need 8)
+Phosphorus supplied: 6.000 kg (need 6)
+Minimum cost: 1400.00
+Cost using only Fertilizer 1 (60 kg): 1800
+Cost using only Fertilizer 2 (80 kg): 3200

@@ -1,0 +1,11 @@
+t=0.0s  v=0.0  accel=3.80  np.gradient=3.80
+t=0.5s  v=1.9  accel=3.60  np.gradient=3.60
+t=1.0s  v=3.6  accel=3.10  np.gradient=3.10
+t=1.5s  v=5.0  accel=2.50  np.gradient=2.50
+t=2.0s  v=6.1  accel=1.90  np.gradient=1.90
+t=2.5s  v=6.9  accel=1.30  np.gradient=1.30
+t=3.0s  v=7.4  accel=0.80  np.gradient=0.80
+t=3.5s  v=7.7  accel=0.40  np.gradient=0.40
+t=4.0s  v=7.8  accel=0.20  np.gradient=0.20
+Largest difference from np.gradient: 0.0
+Peak acceleration: 3.80 m/s^2 at t=0.0s

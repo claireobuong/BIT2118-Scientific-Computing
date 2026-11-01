@@ -45,7 +45,7 @@ For the real-world application, I used a two-loop DC electrical circuit. The aim
 - The circuit has two loops.
 - The resistors and batteries are treated as ideal components.
 - The circuit is operating under steady-state conditions.
-- The currents flow in opposite directions through the shared resistor.
+- The two mesh currents are assumed to flow in the same rotational direction around their respective loops, meaning they flow in opposite directions through the shared resistor.
 
 **Input Data**
 

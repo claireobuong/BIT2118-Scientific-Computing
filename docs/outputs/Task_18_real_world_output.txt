@@ -1,0 +1,5 @@
+Solver success: True
+Basic reproduction number R0 = beta/gamma = 3.0
+Peak infected: 3008 people on day 38.5
+Total ever infected by day 160: 9405 (94.1%)
+Population check S+I+R at end: 10000.00

@@ -1,31 +1,30 @@
 import numpy as np
 from scipy.linalg import lu_factor, lu_solve
 
-# Coefficient matrix
+# The same coefficient matrix is reused for several measurement vectors.
 A = np.array([
     [4.0, -1.0,  0.0],
     [-1.0, 4.0, -1.0],
-    [0.0, -1.0,  3.0]
+    [0.0, -1.0,  6.0]  # CHANGE: was 3.0
 ])
 
-# Modified measurement values
 measurement_sets = [
-    np.array([20.0, 12.0, 8.0]),
-    np.array([18.0, 14.0, 12.0]),
-    np.array([22.0, 10.0, 15.0])
+    np.array([15.0, 10.0, 10.0]),
+    np.array([16.0, 11.0,  9.0]),
+    np.array([14.0, 12.0, 11.0])
 ]
 
-# Factorise the matrix only once
+# Factor A only once
 lu, piv = lu_factor(A)
 
-# Solve each modified measurement set
 for i, b in enumerate(measurement_sets, start=1):
     x = lu_solve((lu, piv), b)
-
     residual = b - A @ x
-
-    print(f"Modified measurement set {i}")
+    print(f"Measurement set {i}")
     print("Solution:", x)
     print("Residual norm:", np.linalg.norm(residual))
     print()
-    
+
+# Direct solution for comparison
+print("Direct solution for first set:",
+      np.linalg.solve(A, measurement_sets[0]))

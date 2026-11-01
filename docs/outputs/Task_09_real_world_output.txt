@@ -1,0 +1,7 @@
+Dominant eigenvalue: 1.0
+Home     0.3193
+Blog     0.2095
+News     0.2095
+Shop     0.1626
+Contact  0.0991
+Scores sum to: 1.0

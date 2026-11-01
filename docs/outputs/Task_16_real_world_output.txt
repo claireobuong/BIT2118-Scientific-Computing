@@ -1,0 +1,4 @@
+Volume (trapezoid): 111,780 m^3
+Volume (Simpson):   111,960 m^3
+Difference: 180 m^3 (0.161%)
+Average flow over 8 h: 3.888 m^3/s
