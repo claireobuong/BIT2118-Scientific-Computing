@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This repository contains Python programs and documentation for the BIT 2118 Scientific Computing tasks. The project demonstrates the application of numerical methods and scientific computing techniques to mathematical and real-world problems.
+The project demonstrates the application of numerical methods and scientific computing techniques to mathematical and real-world problems.
 
 ## Project Objectives
 
@@ -44,7 +44,7 @@ This repository contains Python programs and documentation for the BIT 2118 Scie
 3. Clone or download the repository.
 4. Open the project in Visual Studio Code.
 5. Navigate to the `code/` folder.
-6. Run the Python file for the task you want to execute.
+6. Select the Python file for the task and run it.
 
 ## Documentation
 
