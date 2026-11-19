@@ -1,4 +1,8 @@
 # BIT 2118 – Scientific Computing
+# OBUONG CLAIRE ANYANGO
+
+## Prerequisite 
+Task 1 involved completing the Data Science Essentials with Python course. The course provided practical knowledge of using Python for data analysis, including working with Pandas, cleaning and organising datasets, analysing data and creating visualisations using Matplotlib. I successfully completed the course and was awarded a certificate.
 
 ## Project Overview
 
